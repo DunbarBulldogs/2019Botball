@@ -2,6 +2,8 @@
 
 int main()
 {
+    wait_for_light(0);
+    shut_down_in(119);
     enable_servos();                  
     printf("Hello World\n");
     create_connect();
